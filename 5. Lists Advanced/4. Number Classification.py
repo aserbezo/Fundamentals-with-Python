@@ -1,0 +1,18 @@
+def positive_numbers(numbers):
+    return [str(number) for number  in numbers if number >= 0 ]
+def negtive_numbers(numbers):
+    return [str(number) for number  in numbers if number < 0 ]
+def even_numbers(numbers):
+    return [str(number) for number  in numbers if number % 2 == 0 ]
+def odd_numbers(numbers):
+    return [str(number) for number  in numbers if number % 2 != 0 ]
+
+numbers = [int(s) for s in input().split(", ")]
+
+
+print(f"Positive: {', '.join(positive_numbers(numbers))}")
+print(f"Negative: {', '.join(negtive_numbers(numbers))}")
+print(f"Even: {', '.join(even_numbers(numbers))}")
+print(f"Odd: {', '.join(odd_numbers(numbers))}")
+
+
