@@ -6,3 +6,4 @@ SoftUni - Fundamentals with Python
 - Dictionay
 - Text Processing 
 - Regex
+- Objects and Classes 
